@@ -1,0 +1,11 @@
+name: Migration Tracker Smoke Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo smoke test
+        run: echo "migration tracker smoke test"
